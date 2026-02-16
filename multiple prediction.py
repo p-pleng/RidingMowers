@@ -114,9 +114,9 @@ if(selcted == 'RidingMowers'):
        
         
         #predict
-        Riding_pred=''
+        Riding_pred= ''
         
-        if st.button('RidingMowers Owner/NonOwner test'):
+        if st.button('RidingMowers Owner/nonOwner test'):
             Riding_pred = Riding_model.predict([[
                 float(Income),
                 float(LotSize),
